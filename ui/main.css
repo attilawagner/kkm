@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+span.kkm_tag {
+	display: inline-block;
+	padding: 2px 6px 2px 12px;
+	-webkit-border-radius: 15px 5px 5px 15px;
+	border-radius: 15px 5px 5px 15px;
+	line-height: 15px;
+	font-size: 15px;
+}
+.kkm_tagpool span {
+	margin: 3px;
+}
+
+
+/*
+ * Admin section
+ */
+.kkm_metabox {
+	width: 400px;
+}
+.kkm_metabox .editform {
+    width: 100%;
+}
+.kkm_metabox th {
+    text-align: left;
+}
+.kkm_metabox input[type="text"], .kkm_metabox select {
+    width: 100%;
+}
+
+/*
+ * Tagging box
+ */
+.kkm_tagging ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.kkm_tagging li {
+	line-height: 0;
+	padding: 1px;
+}
+.kkm_tagging li span {
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.kkm_tagging li.suggested span {
+	font-style: italic;
+}
+.kkm_tagging td {
+	width: 50%;
+}
+
+
+/*
+ * Messages
+ */
+.kkm_error_message, .kkm_warning_message, .kkm_note_message {
+	padding: 10px 20px;
+	border-width: 2px;
+	border-style: solid;
+	line-height: 16px;
+}
+.kkm_error_message {
+	background: #df677c;
+	color: #7c0117;
+	border-color: #7c0117;
+}
+.kkm_warning_message {
+	background: #e6986a;
+	color: #853201;
+	border-color: #853201;
+}
+.kkm_note_message {
+	background: #5f9ac1;
+	color: #033555;
+	border-color: #033555;
+}
+
+
+/*
+ * Tagging interface
+ */
+.kkm_tagging {
+	border: 2px solid #e2e2e2;
+	width: 400px;
+	padding: 2px;
+	border-spacing: 2px;
+	table-layout: fixed;
+	margin: 10px auto;
+}
+.kkm_tagging input, .kkm_tagging select {
+	height: 19px;
+	padding: 3px;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin: 0 0 5px;
+	border: 1px solid #ddd;
+}
+.kkm_tagging input {
+	width: 54%;
+	margin-right: 7px;
+}
+.kkm_tagging select {
+	width: 40%;
+}
+.kkm_tagging select option {
+	padding: 2px 5px;
+	margin: 2px;
+}
+.kkm_tagging tr:nth-of-type(2) td {
+	text-align: center;
+}
+.kkm_tagging tr:nth-of-type(3) td {
+	height: 120px;
+	overflow: auto;
+	border: 1px solid #ddd;
+	padding: 2px;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+/*
+ * Uploading
+ */
+.kkm_validation_area, .kkm_preview_area {
+	border: 1px solid #ddd;
+	margin: 10px 20px;
+	padding: 10px;
+}
+.kkm_validation_area {
+	max-height: 200px;
+	overflow: auto;
+}
+.kkm_validation_area div:not(:first-of-type) {
+	margin-top: 3px;
+}
+.kkm_preview_area {
+}
+#upload2_form div {
+	text-align: center;
+}
+#upload2_form textarea {
+	border: 1px solid #ddd;
+	margin: 10px auto;
+	resize: none;
+	width: 400px;
+	display: block;
+}
+
+/*
+ * Composition page
+ */
+.kkm_document_list li.deleted {
+	text-decoration: line-through;
+}
+
+/*
+ * Conversion options
+ */
+.kkm_converter_options table {
+	border: 2px solid #e2e2e2;
+	width: 550px;
+	padding: 2px;
+	border-spacing: 2px;
+	table-layout: fixed;
+	margin: 10px auto;
+}
+.kkm_converter_options td {
+	width: 200px;
+	text-align: right;
+}
+.kkm_converter_options input[type="text"], .kkm_converter_options select {
+	height: 19px;
+	padding: 3px;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	margin: 0 0 5px;
+	border: 1px solid #ddd;
+	width: 95%;
+}
+.kkm_converter_options select option {
+	padding: 2px 5px;
+	margin: 2px;
+}
+#kkm_converter_feedback {
+	border: 1px solid #ddd;
+	margin: 10px 20px;
+	padding: 10px;
+	max-height: 200px;
+	overflow: auto;
+	display: none;
+}
+#kkm_converter_feedback div:not(:first-of-type) {
+	margin-top: 3px;
+}
+.kkm_converter_result {
+	height: auto !important;
+	display: block !important;
+}
